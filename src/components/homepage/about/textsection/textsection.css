@@ -1,0 +1,13 @@
+.textContainer {
+  /* background-color: purple; */
+  /* background-color: white; */
+  background-color: rgba(255, 234, 41, 0.92);
+  /* height: 69vh; */
+  width: 50%;
+  padding: 8% 9% 3% 3%;
+
+  font-size: 22px;
+
+  /* padding-top: 7%; */
+  /* margin-top: 3%; */
+}

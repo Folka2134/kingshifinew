@@ -1,0 +1,62 @@
+.rigContainer {
+  /* background-color: #ffea29; */
+  /* height: 109vh; */
+  /* margin-top: 5%; */
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.rig {
+  display: inline-block;
+
+  font-size: 20px;
+  /* color: #fff; */
+  /* border-radius: 6px; */
+  padding: 0px;
+  margin: 0;
+}
+
+.rig:first-child {
+  width: 100%;
+}
+
+.rig:not(:first-child) {
+  flex: 1;
+}
+
+.rigTitle {
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  height: 10vh;
+  padding-right: 10%;
+  margin: 0;
+
+  border: 1px solid black;
+
+  font-size: 70px;
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.rigText {
+  background-color: rgba(88, 41, 255, 0.92);
+  width: 50%;
+  height: 68vh;
+  padding: 6% 3% 3% 9%;
+
+  font-size: 22px;
+}
+
+.rigPic {
+  background-color: rgba(88, 41, 255, 0.92);
+  width: 50%;
+  height: 68vh;
+  padding: 4% 3% 4% 0;
+}
+
+.rigPic img {
+  height: 100%;
+}

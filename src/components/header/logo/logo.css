@@ -1,0 +1,10 @@
+.logoContainer {
+  /* background-color: white; */
+  display: flex;
+  justify-content: center;
+  /* flex-grow: 1; */
+}
+
+.logoContainer > img {
+  height: 120px;
+}

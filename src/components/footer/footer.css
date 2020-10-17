@@ -1,0 +1,14 @@
+.footerContainer {
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+  height: 10vh;
+  /* margin-top: 5%; */
+
+  border-top: 1px solid black;
+
+  position: relative;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
